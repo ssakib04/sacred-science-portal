@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Hero } from '../components/Hero';
+import { Navbar } from '../components/Navbar';
+import { VerseCollection } from '../components/VerseCollection';
+import { SearchSection } from '../components/SearchSection';
+import { NumericalMiracles } from '../components/NumericalMiracles';
+import { ThemeProvider } from '../context/ThemeContext';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <ThemeProvider>
+      <div className="min-h-screen bg-background text-foreground">
+        <Navbar />
+        <Hero />
+        <VerseCollection />
+        <SearchSection />
+        <NumericalMiracles />
+        
+        <footer className="py-8 px-4 border-t border-border">
+          <div className="container mx-auto text-center">
+            <p className="text-sm text-muted-foreground">
+              © {new Date().getFullYear()} Quranic Miracles | A journey through faith and science
+            </p>
+          </div>
+        </footer>
       </div>
-    </div>
+    </ThemeProvider>
   );
 };
 
