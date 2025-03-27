@@ -4,6 +4,7 @@ import { Navbar } from '../components/Navbar';
 import { VerseCollection } from '../components/VerseCollection';
 import { SearchSection } from '../components/SearchSection';
 import { NumericalMiracles } from '../components/NumericalMiracles';
+import { NumberNineteenMiracle } from '../components/NumberNineteenMiracle';
 import { ThemeProvider } from '../context/ThemeContext';
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
         <VerseCollection />
         <SearchSection />
         <NumericalMiracles />
+        <NumberNineteenMiracle />
         
         <footer className="py-8 px-4 border-t border-border">
           <div className="container mx-auto text-center">

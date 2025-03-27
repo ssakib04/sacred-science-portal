@@ -74,7 +74,7 @@ export const miracles: Miracle[] = [
   },
   {
     id: 5,
-    title: "Sun and Moon Cycles",
+    title: "Day & Month Cycles",
     description: "The word 'day' (yawm) is mentioned 365 times in the Quran, corresponding to the number of days in a solar year. The word 'month' (shahr) appears 12 times, corresponding to the number of months in a year.",
     numericalDetails: {
       type: "correlation",
@@ -87,5 +87,111 @@ export const miracles: Miracle[] = [
     },
     reference: "Throughout the Quran",
     category: "Astronomical"
+  },
+  {
+    id: 6,
+    title: "Man and Woman Balance",
+    description: "The words 'man' and 'woman' each appear exactly 24 times in the Quran, showing the perfect balance between genders in divine creation.",
+    numericalDetails: {
+      type: "comparison",
+      data: [
+        { label: "Man", value: 24 },
+        { label: "Woman", value: 24 }
+      ]
+    },
+    reference: "Throughout the Quran",
+    category: "Word Count"
+  },
+  {
+    id: 7,
+    title: "World and Hereafter",
+    description: "The terms for 'world' (dunya) and 'hereafter' (akhirah) each appear exactly 115 times, highlighting the Quran's equal emphasis on both our worldly life and the afterlife.",
+    numericalDetails: {
+      type: "comparison",
+      data: [
+        { label: "World (Dunya)", value: 115 },
+        { label: "Hereafter (Akhirah)", value: 115 }
+      ]
+    },
+    reference: "Throughout the Quran",
+    category: "Word Count"
+  },
+  {
+    id: 8,
+    title: "The Number 19 Miracle",
+    description: "The number 19 forms a remarkable numerical pattern throughout the Quran. The Basmala (first verse) has 19 letters in Arabic, and many key words appear in multiples of 19.",
+    numericalDetails: {
+      type: "correlation",
+      data: [
+        { label: "Letters in Basmala", value: 19 },
+        { label: "Quran Chapters", value: 114 },
+        { label: "114 ÷ 19", value: 6 },
+        { label: "Occurrences of 'Rahman'", value: 57 },
+        { label: "57 ÷ 19", value: 3 }
+      ]
+    },
+    reference: "Surah Al-Muddathir (74:30)",
+    category: "Mathematical"
+  },
+  {
+    id: 9,
+    title: "Seven Heavens Mention",
+    description: "The phrase 'seven heavens' appears exactly 7 times in the Quran, establishing a correlation between the numerical value and the concept described.",
+    numericalDetails: {
+      type: "correlation",
+      data: [
+        { label: "Phrase 'Seven Heavens'", value: 7 },
+        { label: "Atmospheric Layers", value: 7 }
+      ]
+    },
+    reference: "Throughout the Quran",
+    category: "Scientific"
+  },
+  {
+    id: 10,
+    title: "Moon and Solar References",
+    description: "The word 'moon' (qamar) appears 12 times in the Quran, matching the 12 lunar months in a year, while 'sun' (shams) appears more frequently, highlighting its greater prominence in our daily life.",
+    numericalDetails: {
+      type: "correlation",
+      data: [
+        { label: "Moon (Qamar)", value: 12 },
+        { label: "Lunar Months", value: 12 },
+        { label: "Sun (Shams)", value: 33 }
+      ]
+    },
+    reference: "Throughout the Quran",
+    category: "Astronomical"
+  },
+  {
+    id: 11,
+    title: "Day and Its Plural Forms",
+    description: "The singular form 'day' (yawm) appears 365 times, matching the solar year, while the plural form 'days' (ayyam) appears 30 times, corresponding to the average month length.",
+    numericalDetails: {
+      type: "correlation",
+      data: [
+        { label: "Day (Yawm)", value: 365 },
+        { label: "Days in Year", value: 365 },
+        { label: "Days (Ayyam)", value: 30 },
+        { label: "Average Days in Month", value: 30 }
+      ]
+    },
+    reference: "Throughout the Quran",
+    category: "Astronomical"
+  },
+  {
+    id: 12,
+    title: "Gematrical Values (Abjad)",
+    description: "In Arabic, each letter has a numerical value. The phrase 'Bismillah' (In the name of Allah) has a total numerical value of 786, which has significance in Islamic tradition.",
+    numericalDetails: {
+      type: "calculation",
+      data: [
+        { label: "Bismillah Value", value: 786 },
+        { label: "Al-Rahman Value", value: 298 },
+        { label: "Al-Rahim Value", value: 258 },
+        { label: "Sum of Rahman & Rahim", value: 556 }
+      ]
+    },
+    reference: "Arabic Abjad System",
+    category: "Linguistic"
   }
 ];
